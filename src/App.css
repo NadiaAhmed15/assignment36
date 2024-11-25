@@ -1,0 +1,72 @@
+/* Make sure the body and html occupy full height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #c7b9d5, #c3cbda); /* Purple to blue gradient */
+}
+
+/* Styling for the login container */
+.login-container {
+  width: 100%; /* Make it responsive */
+  max-width: 400px; /* Limit the width */
+  padding: 30px 20px;
+  background-color: #ffffff; /* White background for the box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  text-align: center; /* Center align the content */
+}
+
+/* Header styling */
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+}
+
+/* Input field styling */
+.login-container .form-group {
+  margin-bottom: 15px;
+  text-align: left; /* Align labels to the left */
+}
+
+.login-container .form-group label {
+  font-size: 14px;
+  color: #555555;
+}
+
+.login-container .form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.login-container .form-group input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Button styling */
+.login-container .login-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container .login-button:hover {
+  background-color: #0056b3;
+}
